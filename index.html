@@ -31,15 +31,17 @@ Created by Andreas Loizou - LACK3R, @andreas_lz _
 <!-- Form Name -->
 <legend>Find out your net income if you are working in Cyprus</legend>
 
-<!-- Text input-->
+<!-- Appended Input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Gross Salary">Gross Salary</label>  
+  <label class="col-md-4 control-label" for="Gross Salary">Gross Salary</label>
   <div class="col-md-4">
-  <input id="Gross Salary" name="Gross Salary" type="text" placeholder="Gross Salary" class="form-control input-md" required="">
-  <span class="help-block">Please write your gross salary here</span>  
+    <div class="input-group">
+      <input id="Gross Salary" name="Gross Salary" class="form-control" placeholder="Gross Salary" type="text" required="">
+      <span class="input-group-addon">EUR</span>
+    </div>
+    <p class="help-block">Please write down you gross salary here</p>
   </div>
 </div>
-
 <!-- Select Basic -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="typeofjob">Type of job</label>
@@ -51,8 +53,6 @@ Created by Andreas Loizou - LACK3R, @andreas_lz _
   </div>
 </div>
 
-
-
 <!-- Button -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="CalculateNet"></label>
@@ -63,6 +63,10 @@ Created by Andreas Loizou - LACK3R, @andreas_lz _
 
 </fieldset>
 </form>
+
+
+
+
 
     </div>
 		<div class="footer navbar-inversed navbar-fixed-bottom"> 
