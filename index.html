@@ -17,6 +17,19 @@ Created by Andreas Loizou - LACK3R, @andreas_lz _
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
+
+<script>
+function calculateNetIncome(val){
+    
+    var gross = $('#Gross Salary').val();
+
+    var totalPrice = 0.8*gross;
+
+    $("#total").val(totalPrice.toFixed(2));
+}
+
+calculateNetIncome();
+<\script>
 </head>
 
 <body>
@@ -64,7 +77,9 @@ Created by Andreas Loizou - LACK3R, @andreas_lz _
 
 </fieldset>
 </form>
-
+<div>
+  <label class="col-md-4 control-label" for="value"></label>
+<div>
 
 
 
