@@ -18,18 +18,7 @@ Created by Andreas Loizou - LACK3R, @andreas_lz _
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
-<script>
-function calculateNetIncome(val){
-    
-    var gross = $('#Gross Salary').val();
 
-    var totalPrice = 0.8*gross;
-
-    $("#total").val(totalPrice.toFixed(2));
-}
-
-calculateNetIncome();
-</script>
 </head>
 
 <body>
@@ -99,3 +88,15 @@ calculateNetIncome();
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+<script>
+function calculateNetIncome(val){
+    
+    var gross = $('#Gross Salary').val();
+
+    var totalPrice = 0.8*gross;
+
+    $("#total").val(totalPrice.toFixed(2));
+}
+
+calculateNetIncome();
+</script>
